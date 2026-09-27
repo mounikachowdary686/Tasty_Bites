@@ -1,0 +1,258 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff8ef;
+}
+ 
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 18px 32px;
+  background-color: #7a1f1f;
+}
+ 
+.navbar h2 {
+  margin: 0;
+  color: white;
+  white-space: nowrap;
+}
+ 
+.navbar-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 12px 24px;
+}
+ 
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+}
+ 
+.navbar-links a:hover {
+  text-decoration: underline;
+}
+.menu-page {
+  padding: 0 32px 40px;
+}
+ 
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+  max-width: 760px;
+  margin: 0 auto;
+}
+ 
+.menu-card {
+  background-color: white;
+  width: auto;
+  padding: 25px;
+  text-align: left;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+ 
+.menu-card h2 {
+  margin-bottom: 12px;
+  font-size: 22px;
+}
+ 
+.menu-card button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 15px;
+}
+ 
+.menu-card button:hover {
+  background-color: #f3c98b;
+}
+.order-page {
+  max-width: 560px;
+  margin: 0 auto;
+  padding: 0 32px 40px;
+}
+ 
+.order-form,
+.order-details {
+  padding: 28px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+ 
+.order-form {
+  display: grid;
+  gap: 10px;
+  text-align: left;
+}
+ 
+.order-form label {
+  margin-top: 8px;
+  font-weight: bold;
+  color: #7a1f1f;
+}
+ 
+.order-details {
+  margin-top: 24px;
+  text-align: left;
+}
+ 
+.order-details h3 {
+  margin-top: 0;
+  color: #7a1f1f;
+}
+ 
+.order-details p + p {
+  margin-top: 12px;
+}
+ 
+.order-form input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+  border: 1px solid #c5cad3;
+  border-radius: 6px;
+  font: inherit;
+}
+ 
+.order-form input:focus {
+  outline: 2px solid #f3c98b;
+  border-color: #7a1f1f;
+}
+.order-form input,
+.order-form select {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+  border: 1px solid #c5cad3;
+  border-radius: 6px;
+  font: inherit;
+}
+ 
+.order-form select {
+  background-color: white;
+  cursor: pointer;
+}
+ 
+.order-form input:focus,
+.order-form select:focus {
+  outline: 2px solid #f3c98b;
+  border-color: #7a1f1f;
+}
+.order-form button {
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 15px;
+}
+.history-page {
+  padding: 0 32px 40px;
+}
+ 
+.history-button {
+  margin-bottom: 24px;
+  padding: 11px 20px;
+  border: 0;
+  border-radius: 6px;
+  background-color: #7a1f1f;
+  color: white;
+  cursor: pointer;
+  font: inherit;
+}
+ 
+.history-button:hover {
+  background-color: #a13030;
+}
+ 
+.history-table-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  overflow-x: auto;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+ 
+.history-table {
+  width: 100%;
+  min-width: 600px;
+  border-collapse: collapse;
+  text-align: left;
+}
+ 
+.history-table th,
+.history-table td {
+  padding: 16px 20px;
+  border-bottom: 1px solid #e1e5eb;
+}
+ 
+.history-table th {
+  background-color: #7a1f1f;
+  color: white;
+  font-weight: bold;
+}
+ 
+.history-table tbody tr:last-child td {
+  border-bottom: 0;
+}
+ 
+.history-table tbody tr:hover {
+  background-color: #fdf3e7;
+}
+.home-page {
+  text-align: center;
+  padding: 60px 32px;
+}
+
+.home-page p {
+  color: #555;
+  margin-top: 10px;
+}
+
+.home-actions {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 30px;
+}
+
+.home-button {
+  padding: 12px 24px;
+  background-color: #7a1f1f;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.home-button:hover {
+  background-color: #a13030;
+}
+.home-features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  max-width: 800px;
+  margin: 40px auto 0;
+}
+
+.feature-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.feature-card h3 {
+  margin-top: 0;
+}
+
+.home-hours {
+  margin-top: 30px;
+  font-weight: bold;
+  color: #7a1f1f;
+}
